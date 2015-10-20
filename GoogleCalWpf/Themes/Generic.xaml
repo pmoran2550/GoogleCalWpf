@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:commonStyle="clr-namespace:Schuss.GoogleCalWpf.Themes"
+    xmlns:toolkit="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:PresentationOptions= "http://schemas.microsoft.com/winfx/2006/xaml/presentation/options" 
+    >
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RedAndBlack_Brush.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RedAndBlack_Text.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/GlassButton.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RaisedButton.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RedAndBlack_ComboBox.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RedAndBlack_Button.xaml" />
+        <ResourceDictionary Source="/GoogleCalWpf;component/Themes/RedAndBlack_DataGrid.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+        
+</ResourceDictionary>

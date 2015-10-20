@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:Schuss.UI.Common.Themes">
+
+    <SolidColorBrush x:Uid="SolidColorBrush_5" x:Key="NewBrushKey" Color="Green"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_5" x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:ColorResources}, ResourceId=RedBrush}" Color="Blue"/>
+
+</ResourceDictionary>
+
+<!--x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:Painter},
+
+                                 ResourceId=ButtonBrush}"
+    
+    x:Key="{x:Static local:ColorResources.RedBrushKey}"-->
