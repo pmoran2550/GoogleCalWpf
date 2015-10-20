@@ -1,0 +1,43 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:commonStyle="clr-namespace:Schuss.GoogleCalWpf.Themes"
+    >
+
+    <Style x:Key="{x:Static commonStyle:TextResources.StandardHeaderTextKey}" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style x:Key="{x:Static commonStyle:TextResources.SmallHeaderTextKey}" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style x:Key="{x:Static commonStyle:TextResources.StandardTextKey}" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <Style x:Key="{x:Static commonStyle:TextResources.LargeButtonTextKey}" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+    
+    <Style x:Key="{x:Static commonStyle:TextResources.StandardButtonTextKey}" TargetType="TextBlock" >
+        <Setter Property="FontFamily" Value="Segoe UI" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+    
+</ResourceDictionary>
+

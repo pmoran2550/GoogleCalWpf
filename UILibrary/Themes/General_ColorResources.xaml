@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Schuss.UI.Common.Themes"
+    xmlns:toolkit="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:PresentationOptions= "http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+    >
+
+    <SolidColorBrush x:Uid="SolidColorBrush_5" x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:ColorResources}, ResourceId=RedBrushStyle}" Color="Green"/>
+
+    <!--x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type local:CustomControl1}, ResourceId=ControlLibRedTextStyle}" BasedOn="{x:Null}" TargetType="{x:Type TextBlock}"
+    {x:Static A:ColorResources.RedBrushKey}-->
+    
+    <LinearGradientBrush x:Uid="LinearGradientBrush_1" x:Key="{x:Static local:ColorResources.WindowBackgroundKey}" 
+                         StartPoint=".5,0" EndPoint=".5,1">
+        <GradientStop x:Uid="GradientStop_1" Offset="0" Color="#ffb9baba"/>
+        <GradientStop x:Uid="GradientStop_2" Offset="1" Color="#ffd3d4d4" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_10" x:Key="{x:Static local:ColorResources.WindowTopBackgroundKey}" 
+                     Color="#fff3f3f3" />
+
+    <SolidColorBrush x:Uid="SolidColorBrush_11" x:Key="{x:Static local:ColorResources.WindowBottomBackgroundKey}" 
+                     Color="#ffb9b9b9" />
+
+    <LinearGradientBrush x:Uid="LinearGradientBrush_2" x:Key="TabItemDeselected" StartPoint=".5,0" EndPoint=".5,1">
+        <GradientStop x:Uid="GradientStop_3" Offset="0" Color="#ffd5d6d6"/>
+        <GradientStop x:Uid="GradientStop_4" Offset="1" Color="#ffd1d1d1" />
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_6" x:Key="TabItemSelected" Color="#ffb9baba"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_8" x:Key="GlyphBrush" Color="#444" />
+
+    <SolidColorBrush x:Uid="SolidColorBrush_14" x:Key="ButtonBorderBrush" Color="#ff1f1f1f"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_15" x:Key="ButtonBorderPressedBrush" Color="#ff8f8f8f"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_3" x:Key="ButtonBackgroundEnableBrush" Color="#ffbbbbbb"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_4" x:Key="ButtonBackgroundPressedBrush" Color="#ff999999"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_12" x:Key="ButtonBackgroundDisableBrush" Color="#ffc2c2c2"/>
+
+    <SolidColorBrush x:Uid="SolidColorBrush_13" x:Key="ButtonBackgroundDefaultBrush" Color="#ffaaaaaa" />
+
+    <LinearGradientBrush x:Uid="LinearGradientBrush_39" x:Key="ComboBoxTogggleBorderBrush" StartPoint="0,0" EndPoint="0,1" >
+        <GradientStop x:Uid="GradientStop_104" Offset="0" Color="#ffa2a3a7"/>
+        <GradientStop x:Uid="GradientStop_105" Offset="1" Color="#ff626367" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>
