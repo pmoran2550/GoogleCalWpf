@@ -167,7 +167,7 @@ namespace Schuss.GoogleCalWpf.Models
         private void ConnectToCalendarService()
         {
             UserCredential credential;
-            using (var stream = new FileStream("client_secret_480898442601-8v9dcls55b2jdggaa4k5jqq2rp7to68a.apps.googleusercontent.com.json", FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
             {
                 credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                     GoogleClientSecrets.Load(stream).Secrets,
