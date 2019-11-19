@@ -12,10 +12,11 @@ namespace Schuss.GoogleCalWpf.Converters
     [ValueConversion(typeof(bool), typeof(string))]
     public class BooleanToStringConverter : DependencyObject, IValueConverter
     {
-
+        // Output for true value
         public static readonly DependencyProperty TrueStringProperty = DependencyProperty.Register("TrueString", typeof(string),
             typeof(BooleanToStringConverter), new PropertyMetadata("Green"));
 
+        // Output for false value
         public static readonly DependencyProperty FalseStringProperty = DependencyProperty.Register("FalseString", typeof(string),
             typeof(BooleanToStringConverter), new PropertyMetadata("Red"));
 
