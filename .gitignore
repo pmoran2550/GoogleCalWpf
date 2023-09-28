@@ -43,3 +43,6 @@ Temporary Items
 .apdisk
 .vs/GoogleCalWpf/v16/.suo
 packages/
+GoogleCalWpf/bin/
+GoogleCalWpf/obj/
+
